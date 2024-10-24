@@ -1,0 +1,142 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body Styles */
+body {
+    background-color: #000; /* Changed to black */
+    color: #f8f9fa; /* Changed text color for contrast */
+    line-height: 1.6;
+    font-size: 16px;
+    padding-bottom: 100px;
+}
+
+/* Header Styles */
+header {
+    background-color: #0077b6;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    font-style: italic;
+    opacity: 0.85;
+}
+
+/* Section Styles */
+section {
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #1e1e1e; /* Darker background for sections */
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1); /* Adjusted for visibility */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.2); /* Lighten shadow on hover */
+}
+
+h2 {
+    font-size: 2em;
+    color: #00b4d8; /* Changed heading color for contrast */
+    margin-bottom: 20px;
+    border-bottom: 3px solid #0077b6;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+p, ul {
+    margin-bottom: 15px;
+    line-height: 1.8;
+    color: #f8f9fa; /* Adjusted text color for readability */
+}
+
+/* Project Section Styles */
+.project {
+    background-color: #2a2a2a; /* Darker background for project cards */
+    padding: 20px;
+    border-left: 5px solid #0077b6;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.project h3 {
+    font-size: 1.5em;
+    color: #00b4d8; /* Changed project title color */
+    margin-bottom: 10px;
+}
+
+.project p {
+    margin: 5px 0;
+}
+
+/* List Styles */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Contact Section Styles */
+#contact a {
+    color: #00b4d8; /* Changed link color for better visibility */
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#contact a:hover {
+    color: #90e0ef; /* Changed hover color for links */
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* CSS for hyperlink section */
+#profile-link {
+    text-align: center;
+    padding: 20px;
+    background-color: #0077b6;
+    color: white;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+#profile-link a {
+    color: #90e0ef;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#profile-link a:hover {
+    color: #f0f4f8;
+    text-decoration: underline;
+}
